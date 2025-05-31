@@ -113,20 +113,3 @@ require (
 	mvdan.cc/unparam v0.0.0-20250301125049-0df0534333a4 // indirect
 )
 
-tool (
-	github.com/fzipp/gocyclo/cmd/gocyclo
-	github.com/golangci/misspell/cmd/misspell
-	github.com/gordonklaus/ineffassign
-	github.com/jstemmer/go-junit-report/v2
-	github.com/kisielk/errcheck
-	github.com/securego/gosec/v2/cmd/gosec
-	github.com/uudashr/gocognit/cmd/gocognit
-	golang.org/x/tools/go/analysis/passes/fieldalignment/cmd/fieldalignment
-	golang.org/x/tools/go/analysis/passes/nilness/cmd/nilness
-	golang.org/x/tools/go/analysis/passes/shadow/cmd/shadow
-	golang.org/x/vuln/cmd/govulncheck
-	honnef.co/go/tools/cmd/staticcheck
-	mvdan.cc/gofumpt
-	mvdan.cc/sh/v3/cmd/shfmt
-	mvdan.cc/unparam
-)
